@@ -9,22 +9,36 @@
   justify-content: center;
   flex-direction: column; }
   .hero.landscape {
-    color: white; }
+    color: yellow; }
   .hero h1 {
     line-height: 55px;
     font-size: 72px; }
   .hero h2 {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
     font-size: 40px;
     line-height: 40px; }
-
+.img {
+  margin-top: 40px;
+  position: relative;
+  margin-top: 20px;
+  opacity: 50%;
+}
+.name {
+  color: blue;
+   font-style:italic;
+   color: black;
+}
+#intro {
+background-color: #00CFFF;
+}
 #intro h1, #intro h5 {
-  text-shadow: rgba(0, 0, 0, 0.25) 0px 5px 5px; }
+  color: black;
+  text-shadow: rgba(0, 0, 0, 0.25) 10px 5px 5px; }
 #intro h5 {
   margin-bottom: 20px;
   font-size: 24px;
-  font-weight: 700; }
+  font-weight: 50; }
 
 .cta {
   background-color: black;
